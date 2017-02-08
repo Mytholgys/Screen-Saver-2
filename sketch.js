@@ -11,7 +11,7 @@ var circleD2 = 20
 //All Efect
 function setup() {
   frameRate (200)
-  createCanvas (1900,1005)
+  createCanvas (windowWidth,windowHeight)
   background (55, 119, 66)
   
 }
@@ -27,11 +27,11 @@ function draw() {
   circleY = circleY + random(-10,10)
   circleD = circleD + random(-5,5)
   
-  if (circleX>1920) {
+  if (circleX>windowWidth) {
     circleX = circleX - 10
   }
   
-  if (circleY>1080) {
+  if (circleY>windowHight) {
     circleY = circleY - 10
   }
   
