@@ -31,7 +31,7 @@ function draw() {
     circleX = circleX - 10
   }
   
-  if (circleY>windowHight) {
+  if (circleY>windowHeight) {
     circleY = circleY - 10
   }
   
