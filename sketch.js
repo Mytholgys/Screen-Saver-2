@@ -10,8 +10,10 @@ var circleD2 = 20
 
 //All Efect
 function setup() {
+  frameRate (200)
   createCanvas (1920,1080)
   background (55, 119, 66)
+  
 }
 
 function draw() {
